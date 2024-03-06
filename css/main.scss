@@ -1,0 +1,98 @@
+// Colors
+$color-white: #ffffff;
+$color-primary: #335576;
+$color-secondary: #db7a4e;
+$color-background: #fefaf5;
+
+// Fonts
+$font-family: Verdana, sans-serif;
+@import "variables";
+
+// Reset styles
+// Typography styles
+// Global styles
+@import "variables";
+
+.navigation-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: $color-white;
+}
+
+.logo {
+  color: $color-primary;
+}
+
+.menu {
+  list-style: none;
+  // Other navigation styles
+}
+
+.menu-item {
+  // Styles for menu items
+}
+
+.active {
+  border-bottom: 2px solid $color-secondary;
+}
+@import "variables";
+
+footer {
+  background-color: $color-background;
+  color: $color-primary;
+}
+
+.footer-title {
+  // Footer title styles
+}
+
+.footer-text {
+  // Footer text styles
+}
+
+.footer-subtitle {
+  color: $color-secondary;
+}
+@import "variables";
+
+footer {
+  background-color: $color-background;
+  color: $color-primary;
+}
+
+.footer-title {
+  // Footer title styles
+}
+
+.footer-text {
+  // Footer text styles
+}
+
+.footer-subtitle {
+  color: $color-secondary;
+}
+@import "variables";
+
+.recommendations-section {
+  // Recommendations section styles
+}
+
+.destination-card {
+  // Card styles
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+@import 'variables';
+
+.itinerary {
+    padding: 50px 0;
+    text-align: center;
+}
+@import 'base';
+@import 'navigation';
+@import 'footer';
+@import 'hero';
+@import 'recommendations';
+@import 'destination';

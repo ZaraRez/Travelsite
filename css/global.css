@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* styles.scss (compiled from various partials) */
+@import 'base';
+@import 'navigation';
+@import 'footer';
+@import 'destination';
+
+/* styles specific to the destination pages */
+main {
+    padding: 20px;
+}
+
+/* Reset styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* General styles */
+body {
+    font-family: Verdana, sans-serif;
+}
+
+header {
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #335576;
+    text-decoration: none;
+}
+
+/* Styles for other sections follow */
+/* global.css */
